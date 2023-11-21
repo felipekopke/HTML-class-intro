@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+  </head>
+  <body style="margin-bottom: 600px">
+    <h1>Tabelas</h1>
+    <a href="listas.html"> Link para Listas </a>
+    <br />
+    <a href="tags_especiais.html"> Link para Tags Especiais </a>
+    <hr />
+    <h3>Tabela simples</h3>
+    <table border="1">
+      <!-- início Cabeçalho -->
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Profissão</th>
+      </tr>
+      <!-- final Cabeçalho -->
+      <tr>
+        <td>João</td>
+        <td>22</td>
+        <td>Programador</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>25</td>
+        <td>Designer</td>
+      </tr>
+    </table>
+
+    <hr />
+    <h3>Tabela com Cabeçalho e Rodapé</h3>
+    <table border="2" width="250px" cellpadding="4" cellspacing="5">
+      <!-- Cabeçalho -->
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+      </thead>
+      <!-- Corpo -->
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>22</td>
+          <td>Programador</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>25</td>
+          <td>Designer</td>
+        </tr>
+      </tbody>
+      <!-- Rodapé -->
+      <tfoot>
+        <tr>
+          <td colspan="2">Total de registros:</td>
+          <td>2</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <h3>Tabela mais trabalhada</h3>
+    <table border="3">
+      <thead>
+        <tr>
+          <th colspan="4">Aulas HTML</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Capítulo 1</td>
+        </tr>
+        <tr>
+          <td>Aula 1</td>
+          <td>Introdução</td>
+          <td>1h</td>
+        </tr>
+        <tr>
+          <td>Aula 2</td>
+          <td>Listas e Tabelas</td>
+          <td>1h</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Capítulo 2</td>
+        </tr>
+        <tr>
+          <td>Aula 3</td>
+          <td>Links e âncoras</td>
+          <td>30min</td>
+        </tr>
+        <tr>
+          <td>Aula 4</td>
+          <td>Links e âncoras</td>
+          <td>30min</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
